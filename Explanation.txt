@@ -1,0 +1,56 @@
+You have a magic dictionary, you have non repeated words in the dictionary, you have to return the words 
+which concatenated words in the given list of words.
+A concatenated word is defined as a string that is comprised entirely of at least two shorter words in the given array.
+
+Input Description:
+First line contains n the size of the dictionary.
+Secondline contains, n words inthe dictionary.
+(1<n<1000)
+
+Output Description:
+Print the words which concatenated words in the given list of words.
+
+Sample Input:
+7
+cat bat dogcat bat dog catbat catdpgcat
+
+Sample Output:
+dogcat catbat
+
+Explanation:
+the "dogcat" and "catbat", which are concatenated words of dogcat-> dog, cat and catbat-> cat, bat.
+
+Sample Input:
+4
+hello world guviworld guvi
+
+Sample Output:
+guviworld
+
+Sample Input:
+7
+the words which wordswhich is blabber isthe
+
+Sample Output:
+wordswhich isthe
+
+Sample Input:
+9
+a ab cde b bcde rt r u ua
+
+Sample Output:
+ab bcde ua
+
+Sample Input:
+4
+code python coding pythoncoding
+
+Sample Output:
+pythoncoding
+
+Sample Input:
+7
+scratch down right left wrongright downright leftdown
+
+Sample Output:
+downright leftdown
